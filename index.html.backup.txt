@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalule Joshua</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/aos.css" />
+    <link rel="stylesheet" href="./assets/css/line-awesome.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body data-bs-spy="scroll" data-bs-target=".navbar">
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container flex-lg-column">
+        <a class="navbar-brand mx-lg-auto mb-lg-4" href="#">
+          <span class="h3 fw-bold d-block d-lg-none">Kalule Joshua</span>
+          <img src="./assets/images/joshua-kalule-dp-3-square.png" class="d-none d-lg-block rounded-circle" alt="" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto flex-lg-column text-lg-center">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#work">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#reviews">Reviews</a>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="#blog">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- //NAVBAR -->
+
+    <!-- CONTENT WRAPPER -->
+    <div id="content-wrapper">
+      <!-- HOME -->
+      <section id="home" class="full-height px-lg-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-10">
+              <h1 class="display-4 fw-bold" data-aos="fade-up">
+                I'M A
+                <span class="text-brand">DATA ENGINEER and BACKEND DEVELOPER</span>
+              </h1>
+              <p class="lead mt-2 mb-4" data-aos="fade-up" data-aos-delay="300">Hi, I'm Kalule Joshua. I specialize in creating high-performance, user-friendly experiences that drive conversions and delight users.</p>
+              <div data-aos="fade-up" data-aos-delay="600">
+                <a href="#work" class="btn btn-brand me-3">Explore My Work</a>
+                <!-- <a href="#" class="link-custom">Call: +256703276435</a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- //HOME -->
+
+      <!-- SERVICES -->
+      <section id="services" class="full-height px-lg-5">
+        <div class="container">
+          <div class="row pb-4" data-aos="fade-up">
+            <div class="col-lg-8">
+              <h6 class="text-brand">SERVICES</h6>
+              <h1>Services That I Provide</h1>
+            </div>
+          </div>
+
+          <div class="row gy-4">
+            <div class="col-md-4" data-aos="fade-up">
+              <div class="service p-4 bg-base rounded-4 shadow-effect">
+                <div class="iconbox rounded-4">
+                  <i class="las la-chart-pie"></i>
+                </div>
+                <h5 class="mt-4 mb-2">Data Management Solutions</h5>
+                <p>I specialize in creating, repurposing, reviewing, and monitoring data collection online. I extract data and transform it into actionable insights through advanced visualization and interpretation techniques.</p>
+                <a href="#" class="link-custom" data-bs-toggle="modal" data-bs-target="#dataServicesModal">Read More</a>
+              </div>
+            </div>
+
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+              <div class="service p-4 bg-base rounded-4 shadow-effect">
+                <div class="iconbox rounded-4">
+                  <i class="las la-laptop-code"></i>
+                </div>
+                <h5 class="mt-4 mb-2">Backend DevOps</h5>
+                <p>I provide robust backend development services. From server-side logic to database management, I handle all aspects to deliver a seamless user experience.</p>
+                <a href="#" class="link-custom">Read More</a>
+              </div>
+            </div>
+
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="600">
+              <div class="service p-4 bg-base rounded-4 shadow-effect">
+                <div class="iconbox rounded-4">
+                  <i class="las la-magic"></i>
+                </div>
+                <h5 class="mt-4 mb-2">Electronics Design</h5>
+                <p>I specialize in whiteboarding, simulating, and designing both software and hardware electronics projects. With the integration of 3D printing, I bring your ideas to life with precision and innovation.</p>
+                <a href="#" class="link-custom">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- //SERVICES -->
+
+      <!-- MODALS -->
+      <!-- DATA SERVICES -->
+      <div class="modal fade" id="dataServicesModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-fullscreen-lg-down">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Data Management Services</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="container-fluid">
+                <ul class="nav nav-tabs" id="dataServicesTab" role="tablist">
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="data-collection-tab" data-bs-toggle="tab" data-bs-target="#data-collection" type="button" role="tab" aria-controls="Data Collection" aria-selected="true">Collection</button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="data-preparation-tab" data-bs-toggle="tab" data-bs-target="#data-preparation" type="button" role="tab" aria-controls="Data Preparation" aria-selected="false">Preparation</button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="data-visualization-tab" data-bs-toggle="tab" data-bs-target="#data-visualization" type="button" role="tab" aria-controls="Data Visualization" aria-selected="false">Visualization</button>
+                  </li>
+                </ul>
+                <div class="tab-content" id="dataServicesTabContent">
+                  <div class="tab-pane fade show active" id="data-collection" role="tabpanel" aria-labelledby="data-collection-tab">
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col p-3">
+                          <p>Utilize advanced online data collection tools such as Google Forms, SurveyMonkey, Kobo Collect, and ODK Collect. Whether for research surveys, quizzes, or feedback forms, these tools can be tailored to meet your specific requirements.</p>
+                          <p>With a keen eye for detail and a passion for data-driven insights, I create and manage efficient data collection processes that ensure accurate and actionable results. My expertise in these tools allows me to design user-friendly surveys, monitor data collection in real-time, and provide comprehensive analysis to drive informed decision-making</p>
+                          <p></p>
+                        </div>
+                        <div class="col p-4">
+                          <img class="modal-img" src="./assets/images/DALL-E-collection-tools.jpg" alt="Data collection tools" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="data-preparation" role="tabpanel" aria-labelledby="data-preparation-tab">
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col p-3 text-content">
+                          <h4>Objective</h4>
+                          <p><em>Highly motivated designer with strong passion for software development and motion graphic designing.</em></p>
+                          <ul class="list-unstyled">
+                            <li>Kampala, Uganda</li>
+                            <li>+256 782 800774</li>
+                            <li>thorhenry20@gmail.com</li>
+                          </ul>
+                        </div>
+                        <div class="col p-4">
+                          <img class="modal-img" src="./assets/images/pexels-n-voitkevich-data-clean.jpg" alt="Data collection tools" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="data-visualization" role="tabpanel" aria-labelledby="data-visualization-tab">
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col p-3">
+                          <p></p>
+                          <p></p>
+                          <p></p>
+                        </div>
+                        <div class="col p-4">
+                          <img class="modal-img" src="./assets/images/pixabay-yatsusimnetcojp-data-visualization.jpg" alt="Data collection tools" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer"></div>
+          </div>
+        </div>
+      </div>
+      <!-- //DATA SERVICES -->
+      <!-- //MODALS -->
+
+      <!-- WORK -->
+      <section id="work" class="full-height px-lg-5">
+        <div class="container">
+          <div class="row pb-4 d-flex align-items-stretch" data-aos="fade-up">
+            <div class="col-lg-8">
+              <h6 class="text-brand">WORK</h6>
+              <h1>My Recent Projects</h1>
+            </div>
+          </div>
+
+          <div class="row gy-4">
+            <div class="col-md-6 work-item" data-aos="fade-up">
+              <div class="card-custom rounded-4 bg-base shadow-effect">
+                <div class="card-custom-image rounded-4">
+                  <img class="rounded-4" src="./assets/images/fittrack_1.jpeg.png" alt="" />
+                </div>
+                <div class="card-custom-content p-4">
+                  <h4>FitTrack Fitness website</h4>
+                  <p>
+                    A collaborative portfolio project developed during the ALX Foundations program. It highlights the comprehensive knowledge and skills acquired over the 9-month learning period.
+                    <span><a target="_blank" href="https://github.com/joshuakalule/FitTrack#readme" class="link-custom">Read More</a></span>
+                  </p>
+                  <p class="role">
+                    <span>Roles:</span>
+                    API Development, Database Architecture, Remote Server Configuration
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 work-item" data-aos="fade-up" data-aos-delay="300">
+              <div class="card-custom rounded-4 bg-base shadow-effect">
+                <div class="card-custom-image rounded-4">
+                  <img class="rounded-4" src="./assets/images/todo-website-0.png" alt="" />
+                </div>
+                <div class="card-custom-content p-4">
+                  <h4>Todo App</h4>
+                  <p>
+                    The Todo App is a contemporary, intuitive task management application designed to assist users in efficiently organizing their daily activities.
+                    <span><a target="_blank" href="https://github.com/PimehT/Todo_app#readme" class="link-custom">Read More</a></span>
+                  </p>
+                  <p class="role">
+                    <span>Roles:</span>
+                    API Development, Database Architecture, Remote Server Configuration
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 work-item" data-aos="fade-up">
+              <div class="card-custom rounded-4 bg-base shadow-effect">
+                <div class="card-custom-image rounded-4">
+                  <img class="rounded-4" src="./assets/images/emonc_2024_conference.png" alt="" />
+                </div>
+                <div class="card-custom-content p-4">
+                  <h4>EmONC Assessment Uganda</h4>
+                  <p>
+                    Emergency Obstetrics and New-born Care (EmONC) assessment is a data collection exercise carried out every five years organized by the Ministry of Health to collect data about mothers and their new-borns. The assessment sought to learn how all accredited facilities nationwide manage birthing mothers.
+                    <span><a href="#" class="link-custom">Read More</a></span>
+                  </p>
+                  <p class="role">
+                    <span>Roles:</span>
+                    Data Analyst, Oversaw Data Collection (ODK), Provided Technical Support, Conducted Data Cleaning and Standardization
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 work-item" data-aos="fade-up" data-aos-delay="300">
+              <div class="card-custom rounded-4 bg-base shadow-effect">
+                <div class="card-custom-image rounded-4">
+                  <img class="rounded-4" src="./assets/images/weight_chair_2-potrait.png" alt="" />
+                </div>
+                <div class="card-custom-content p-4">
+                  <h4>Weigh Chair (Prototype)</h4>
+                  <p>
+                    The Weight Chair is an innovative prototype designed to assist in monitoring and managing weight-related health metrics of disabled patients. This project integrates advanced sensors and microcontrollers to provide real-time data and analytics, ensuring accurate and efficient weight tracking.
+                    <span><a href="#" class="link-custom">Read More</a></span>
+                  </p>
+                  <p class="role">
+                    <span>Roles:</span>
+                    Circuit Design, Arduino Programming
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- //WORK -->
+
+      <!-- ABOUT -->
+      <section id="about" class="full-height px-lg-5">
+        <div class="container">
+          <div class="row pb-4" data-aos="fade-up">
+            <div class="col-lg-8">
+              <h6 class="text-brand">ABOUT</h6>
+              <h1>My Education & Experiance</h1>
+            </div>
+          </div>
+
+          <div class="row gy-5">
+            <div class="col-lg-6">
+              <h3 class="mb-4" data-aos="fade-up" data-aos-delay="300">Education</h3>
+              <div class="row gy-4">
+                <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                  <div class="bg-base p-4 rounded-4 shadow-effect">
+                    <h4>Certificate of Software Engineering</h4>
+                    <p class="text-brand mb-2">ALX Africa (C19 2023 - 2024)</p>
+                    <p class="mb-0">A comprehensive 12-month online bootcamp focused on software engineering principles. The program was divided into a 9-month Foundations phase and a 3-month specialization phase, where I specialized in Backend Development.</p>
+                  </div>
+                </div>
+
+                <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                  <div class="bg-base p-4 rounded-4 shadow-effect">
+                    <h4>Bachelor of Engineering in Mechatronics and Biomedical Engineering</h4>
+                    <p class="text-brand mb-2">
+                      <a href="https://kyu.ac.ug/" target="_blank" class="text-brand" rel="noopener noreferrer">Kyambogo University - Uganda</a>
+                      (2018 - 2023)
+                    </p>
+                    <p class="mb-0">Kyambogo University is one of Uganda's premier public institutions. I enrolled in 2018, undertaking various leadership roles and securing internships at multiple organizations throughout my six-year tenure. I graduated with First Class Honors.</p>
+                  </div>
+                </div>
+
+                <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                  <div class="bg-base p-4 rounded-4 shadow-effect">
+                    <h4>Certificate of Completion - Datacom</h4>
+                    <p class="text-brand mb-2">Huawei (2022)</p>
+                    <p class="mb-0">Successfully completed a specialized course in Data Communications with Huawei, gaining in-depth knowledge and practical skills in modern data communication technologies.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <h3 class="mb-4" data-aos="fade-up" data-aos-delay="300">Experience</h3>
+              <div class="row gy-4">
+                <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                  <div class="bg-base p-4 rounded-4 shadow-effect">
+                    <h4>Data Analyst - EmONC Assessment 2023</h4>
+                    <p class="text-brand mb-2">Ministry of Health (2023 - 2024)</p>
+                    <ul>
+                      <li>Developed and optimized data collection tools using xlsforms and ODK software, ensuring efficient and accurate data capture across five targeted survey modules.</li>
+                      <li>Provided comprehensive support to data collectors, resolving issues through troubleshooting tickets and validating survey entries to maintain data integrity.</li>
+                      <li>Engineered a proprietary algorithm to clean and standardize over 1300 form responses, facilitating seamless data import and analysis in Excel and STATA.</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                  <div class="bg-base p-4 rounded-4 shadow-effect">
+                    <h4>Robotics Intern</h4>
+                    <p class="text-brand mb-2">
+                      <a href="https://fundibots.org/" target="_blank" rel="noopener noreferrer" class="text-brand">Fundi Bots Uganda</a>
+                      (2018 - 2020)
+                    </p>
+                    <p class="mb-0">During my internship at Fundi Bots, I significantly enhanced my electronics skills by designing and developing innovative solutions for science education. Additionally, I served as the internship coordinator, overseeing and guiding fellow interns.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- //ABOUT -->
+
+      <!-- BLOG -->
+      <section id="blog" class="full-height px-lg-5">
+        <div class="container">
+          <div class="row pb-4" data-aos="fade-up">
+            <div class="col-lg-8">
+              <h6 class="text-brand">BLOG</h6>
+              <h1>My Blog Posts</h1>
+            </div>
+          </div>
+
+          <div class="row gy-4">
+            <div class="col-md-4" data-aos="fade-up">
+              <div class="card-custom rounded-4 bg-base shadow-effect">
+                <div class="card-custom-image rounded-4">
+                  <img class="rounded-4" src="./assets/images/fittrack_blog_0.jpeg" alt="" />
+                </div>
+                <div class="card-custom-content p-4">
+                  <p class="text-brand mb-2">Jun 13, 2024</p>
+                  <h5 class="mb-4">FitTrack: Revolutionizing Fitness Tracking with Technology</h5>
+                  <a href="https://medium.com/@yeshoajoshus/fittrack-revolutionizing-fitness-tracking-with-technology-1d900a879f61" class="link-custom" target="_blank" rel="noopener noreferrer">Read More</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+              <div class="card-custom rounded-4 bg-base shadow-effect">
+                <div class="card-custom-image rounded-4">
+                  <img class="rounded-4" src="./assets/images/minion_blog_0.jpeg" alt="" />
+                </div>
+                <div class="card-custom-content p-4">
+                  <p class="text-brand mb-2">May 17, 2024</p>
+                  <h5 class="mb-4">Postmortem: Unraveling the May 17 Web Service Outage</h5>
+                  <a href="https://medium.com/@yeshoajoshus/postmortem-unraveling-the-may-17-web-service-outage-2eba92c7017e" class="link-custom" class="link-custom" target="_blank" rel="noopener noreferrer">Read More</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="600">
+              <div class="card-custom rounded-4 bg-base shadow-effect">
+                <div class="card-custom-image rounded-4">
+                  <img class="rounded-4" src="./assets/images/web_blog_0.jpeg" alt="" />
+                </div>
+                <div class="card-custom-content p-4">
+                  <p class="text-brand mb-2">Apr 22, 2024</p>
+                  <h5 class="mb-4">What happens when you type and press enter in a web browser</h5>
+                  <a href="https://medium.com/@yeshoajoshus/what-happens-when-you-type-https-www-google-com-in-a-web-browser-78e0703694a5" class="link-custom" class="link-custom" target="_blank" rel="noopener noreferrer">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- //BLOG -->
+
+      <!-- CONTACT -->
+      <section id="contact" class="full-height px-lg-5">
+        <div class="container">
+          <div class="row justify-content-center text-center">
+            <div class="col-lg-8 pb-4" data-aos="fade-up">
+              <h6 class="text-brand">CONTACT</h6>
+              <h1>Interested in working together? Let's connect on</h1>
+              <div class="row">
+                <div class="col">
+                  <br />
+                  <a href="https://www.linkedin.com/in/joshua-kalule-9747521a2" target="_blank" rel="noopener noreferrer"><i class="lab la-linkedin-in la-4x"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- //CONTACT -->
+
+      <!-- FOOTER -->
+      <footer class="py-5 px-lg-5">
+        <div class="container">
+          <div class="row gy-4 justify-content-between">
+            <div class="col-auto">
+              <p class="mb-0">
+                Design adopted from
+                <a href="https://github.com/SA7MANKHAN" class="fw-bold">SA7MAN</a>
+              </p>
+            </div>
+            <div class="col-auto">
+              <div class="social-icons">
+                <a href="https://twitter.com/KarlYoshua" target="_blank" rel="noopener noreferrer"><i class="lab la-twitter"></i></a>
+                <!-- <a href="#" target="_blank" rel="noopener noreferrer"><i class="lab la-instagram"></i></a> -->
+                <a href="https://www.linkedin.com/in/joshua-kalule-9747521a2" target="_blank" rel="noopener noreferrer"><i class="lab la-linkedin-in"></i></a>
+                <a href="https://github.com/joshuakalule" target="_blank" rel="noopener noreferrer"><i class="lab la-github"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- //FOOTER -->
+    </div>
+    <!-- //CONTENT WRAPPER -->
+
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/aos.js"></script>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
