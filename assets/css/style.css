@@ -216,7 +216,7 @@ img {
 } */
 
 /* ROLE */
-p.role span {
+p.role span.role-head {
   font-weight: 700;
   font-size: large;
   color: var(--color-brand);
