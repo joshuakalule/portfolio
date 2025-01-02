@@ -10,6 +10,10 @@ fetch('/content/json/work.json')
     data.forEach(item => {
       const tempElement = document.createElement('div');
       tempElement.innerHTML = template;
+      // for animation
+      if (data.indexOf(item) % 2 === 1) {
+        tempElement.querySelector('div.work-item').setAttribute('data-aos-delay', '300');
+      }
       // Replace the placeholders with actual data
       // Title
       tempElement.querySelector(map.title).textContent = item.title
@@ -31,6 +35,8 @@ fetch('/content/json/work.json')
 
       // Append the generated HTML to the container
       container.innerHTML += tempElement.innerHTML;
+      // log
+      console.log("added work elements");
     });
   })
   .catch(error => console.error('Error fetching JSON:', error));
