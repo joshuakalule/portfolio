@@ -1,4 +1,4 @@
-fetch('/content/json/work.json')
+fetch('./content/json/work.json')
   .then(response => response.json())
   .then(json => {
     const template = json.template.raw;
@@ -35,8 +35,6 @@ fetch('/content/json/work.json')
 
       // Append the generated HTML to the container
       container.innerHTML += tempElement.innerHTML;
-      // log
-      console.log("added work elements");
     });
   })
   .catch(error => console.error('Error fetching JSON:', error));

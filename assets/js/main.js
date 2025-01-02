@@ -17,7 +17,6 @@ AOS.init({
 // Add event listener for the toast button
 var toastTrigger = document.getElementById('liveToastBtn')
 var toastLiveExample = document.getElementById('liveToast')
-
 if (toastTrigger) {
   toastTrigger.addEventListener('click', function () {
     var toast = new bootstrap.Toast(toastLiveExample)
@@ -25,17 +24,34 @@ if (toastTrigger) {
   })
 }
 
+// update modal content based on the title clicked
+modalIndentifier = {
+  "Data Management Solutions": "./content/html/data-management.html",
+  "Backend DevOps": "./content/html/backend-devops.html",
+  "Electronics Design": "./content/html/electronics-design.html",
+};
+function updateModal(htmlPath) {
+  fetch(htmlPath)
+    .then(response => response.text())
+    .then(data => {
+      document.querySelector('#detailsModal .modal-body .container-fluid').innerHTML = data;
+    })
+    .catch(error => console.error('Error fetching data-management.html:', error));
+}
+
 // vary modal content
 var detailsModal = document.getElementById('detailsModal')
 detailsModal.addEventListener('show.bs.modal', function (event) {
   // Button that triggered the modal
-  var button = event.relatedTarget
+  var button = event.relatedTarget;
   // fetch the parent of that button that has the class .service
   var parentDiv = button.closest('.service');
   // extract the title of that service
   var serviceTitle = parentDiv.querySelector('.service-title').textContent;
 
   // Update the modal's content.
-  var modalTitle = detailsModal.querySelector('.modal-title')
-  modalTitle.textContent = serviceTitle
+  var modalTitle = detailsModal.querySelector('.modal-title');
+  modalTitle.textContent = serviceTitle;
+  console.log(serviceTitle);
+  updateModal(modalIndentifier[serviceTitle]);
 })
