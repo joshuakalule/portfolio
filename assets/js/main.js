@@ -26,8 +26,8 @@ if (toastTrigger) {
 }
 
 // vary modal content
-var comingSoonModal = document.getElementById('comingSoonModal')
-comingSoonModal.addEventListener('show.bs.modal', function (event) {
+var detailsModal = document.getElementById('detailsModal')
+detailsModal.addEventListener('show.bs.modal', function (event) {
   // Button that triggered the modal
   var button = event.relatedTarget
   // fetch the parent of that button that has the class .service
@@ -36,6 +36,6 @@ comingSoonModal.addEventListener('show.bs.modal', function (event) {
   var serviceTitle = parentDiv.querySelector('.service-title').textContent;
 
   // Update the modal's content.
-  var modalTitle = comingSoonModal.querySelector('.modal-title')
+  var modalTitle = detailsModal.querySelector('.modal-title')
   modalTitle.textContent = serviceTitle
 })

@@ -230,7 +230,7 @@ p.role span.role-head {
 }
 
 /* Services model */
-#comingSoonModal .modal-title {
+#detailsModal .modal-title {
   color: var(--color-base2);
 }
 
