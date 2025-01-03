@@ -222,16 +222,26 @@ p.role span.role-head {
   color: var(--color-brand);
 }
 
-/* Modals */
+/* Modal */
+.modal,
+.modal h4,
+.modal-title {
+  color: var(--color-base2);
+}
+
 .modal .tab-content {
   min-height: 40vh;
   color: var(--color-base2);
   font-weight: 600;
 }
 
-/* Services model */
-#detailsModal .modal-title {
-  color: var(--color-base2);
+/* modal cards #backend-devops */
+.evenodd-fill-rule {
+  fill-rule: evenodd;
+}
+
+.svg-fill {
+  fill: #fff;
 }
 
 /* Toast */
@@ -269,13 +279,4 @@ p.role span.role-head {
 
 #liveToast .border-top {
   border-top-color: #022a30 !important;
-}
-
-#data-management {
-  color: var(--color-base2);
-  font-weight: bold;
-}
-
-#data-management h4 {
-  color: var(--color-base2);
 }
