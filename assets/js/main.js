@@ -39,7 +39,7 @@ function updateModal(htmlPath) {
     .catch(error => console.error('Error fetching data-management.html:', error));
 }
 
-// vary modal content
+// vary modal content based on clicked card
 var detailsModal = document.getElementById('detailsModal')
 detailsModal.addEventListener('show.bs.modal', function (event) {
   // Button that triggered the modal
@@ -52,6 +52,5 @@ detailsModal.addEventListener('show.bs.modal', function (event) {
   // Update the modal's content.
   var modalTitle = detailsModal.querySelector('.modal-title');
   modalTitle.textContent = serviceTitle;
-  console.log(serviceTitle);
   updateModal(modalIndentifier[serviceTitle]);
 })
