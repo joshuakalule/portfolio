@@ -9,6 +9,9 @@
   --color-brand2: #deff58;
   --sidbar-width: 240px;
   --font-base: "Bai Jamjuree";
+  --color-electronics: #cc8d06;
+  --color-backend: #570457;
+  --color-data-mgmt: #0d6efd;
 }
 
 body {
@@ -235,6 +238,12 @@ p.role span.role-head {
   font-weight: 600;
 }
 
+/* modal cards #data-management-devops */
+#btn-data-mgmt {
+  background-color: var(--color-data-mgmt);
+  color: #fff;
+}
+
 /* modal cards #backend-devops */
 .evenodd-fill-rule {
   fill-rule: evenodd;
@@ -242,6 +251,25 @@ p.role span.role-head {
 
 .svg-fill {
   fill: #fff;
+}
+
+#backend-devops svg {
+  color: var(--color-backend);
+}
+
+#btn-backend-devops {
+  background-color: var(--color-backend);
+  color: #fff;
+}
+
+/* modal card electronics-design */
+#electronics-design svg {
+  color: var(--color-electronics);
+}
+
+#btn-electronics-design {
+  background-color: var(--color-electronics);
+  color: #fff;
 }
 
 /* Toast */
@@ -279,4 +307,20 @@ p.role span.role-head {
 
 #liveToast .border-top {
   border-top-color: #022a30 !important;
+}
+
+/* Services */
+#service-data-mgmt .iconbox {
+  background-color: var(--color-data-mgmt);
+  color: #ffff;
+}
+
+#service-backend-devops .iconbox {
+  background-color: var(--color-backend);
+  color: #ffff;
+}
+
+#service-electronics .iconbox {
+  background-color: var(--color-electronics);
+  color: #ffff;
 }

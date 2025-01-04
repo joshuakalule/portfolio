@@ -44,7 +44,17 @@ detailsModal.addEventListener('show.bs.modal', function (event) {
   fetch(htmlPath)
     .then(response => response.text())
     .then(data => {
-      document.querySelector('#detailsModal .modal-body .container-fluid').innerHTML = data;
+      const tempElement = document.createElement('div');
+      tempElement.innerHTML = data;
+      // body-html
+      bodyHTML = tempElement.querySelector("section.body-html");
+      // document.querySelector('#detailsModal .modal-body .container-fluid').innerHTML = bodyHTML.innerHTML;
+      const modalBodyContainer = document.querySelector('#detailsModal .modal-body .container-fluid');
+      modalBodyContainer.innerHTML = ''; // Clear existing content
+      modalBodyContainer.appendChild(bodyHTML);
+      // footer-html
+      footer_html = tempElement.querySelector(".footer-html");
+      document.querySelector('#detailsModal .modal-footer').innerHTML = footer_html.innerHTML;
     })
     .catch(error => console.error('Error fetching data-management.html:', error));
 })
