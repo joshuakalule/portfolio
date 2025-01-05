@@ -9,38 +9,44 @@
       "roles": ".card-custom-content .role .roles"
     }
   },
-  "data": [
-    {
-      "title": "FitTrack Fitness website",
-      "cover-photo": "./assets/images/fittrack_1.jpeg.png",
-      "cover-photo-alt": "FitTrack Fitness website",
-      "body": "A collaborative portfolio project developed during the ALX Foundations program. It highlights the comprehensive knowledge and skills acquired over the 9-month learning period.",
-      "read-more-link": "https://github.com/joshuakalule/FitTrack#readme",
-      "roles": "API Development, Database Architecture, Remote Server Configuration"
-    },
-    {
-      "title": "Todo App",
-      "cover-photo": "./assets/images/todo-website-0.png",
-      "cover-photo-alt": "",
-      "body": "The Todo App is a contemporary, intuitive task management application designed to assist users in efficiently organizing their daily activities.",
-      "read-more-link": "https://github.com/PimehT/Todo_app#readme",
-      "roles": "API Development, Database Architecture, Remote Server Configuration"
-    },
-    {
-      "title": "EmONC Assessment Uganda",
-      "cover-photo": "./assets/images/emonc_2024_conference-min.jpg",
-      "cover-photo-alt": "EmONC Assessment Uganda",
-      "body": "Emergency Obstetrics and New-born Care (EmONC) assessment is a data collection exercise carried out every five years organized by the Ministry of Health to collect data about mothers and their new-borns. The assessment sought to learn how all accredited facilities nationwide manage birthing mothers.",
-      "read-more-link": "",
-      "roles": "Data Analyst, Oversaw Data Collection (ODK), Provided Technical Support, Conducted Data Cleaning and Standardization"
-    },
-    {
-      "title": "Weigh Chair (Prototype)",
-      "cover-photo": "./assets/images/weight_chair_2-potrait-min.jpg",
-      "cover-photo-alt": "Weigh Chair (Prototype)",
-      "body": "The Weight Chair is an innovative prototype designed to assist in monitoring and managing weight-related health metrics of disabled patients. This project integrates advanced sensors and microcontrollers to provide real-time data and analytics, ensuring accurate and efficient weight tracking.",
-      "read-more-link": "",
-      "roles": "Circuit Design, Arduino Programming"
-    }
-  ]
+  "data": {
+    "backend-devops": [
+      {
+        "title": "FitTrack Fitness website",
+        "cover-photo": "./assets/images/fittrack_1.jpeg.png",
+        "cover-photo-alt": "FitTrack Fitness website",
+        "body": "A collaborative portfolio project developed during the ALX Foundations program. It highlights the comprehensive knowledge and skills acquired over the 9-month learning period.",
+        "read-more-link": "https://github.com/joshuakalule/FitTrack#readme",
+        "roles": "API Development, Database Architecture, Remote Server Configuration"
+      },
+      {
+        "title": "Todo App",
+        "cover-photo": "./assets/images/todo-website-0.png",
+        "cover-photo-alt": "",
+        "body": "The Todo App is a contemporary, intuitive task management application designed to assist users in efficiently organizing their daily activities.",
+        "read-more-link": "https://github.com/PimehT/Todo_app#readme",
+        "roles": "API Development, Database Architecture, Remote Server Configuration"
+      }
+    ],
+    "data-management": [
+      {
+        "title": "EmONC Assessment Uganda",
+        "cover-photo": "./assets/images/emonc_2024_conference-min.jpg",
+        "cover-photo-alt": "EmONC Assessment Uganda",
+        "body": "Emergency Obstetrics and New-born Care (EmONC) assessment is a data collection exercise carried out every five years organized by the Ministry of Health to collect data about mothers and their new-borns. The assessment sought to learn how all accredited facilities nationwide manage birthing mothers.",
+        "read-more-link": "",
+        "roles": "Data Analyst, Oversaw Data Collection (ODK), Provided Technical Support, Conducted Data Cleaning and Standardization"
+      }
+    ],
+    "electronics-design": [
+      {
+        "title": "Weigh Chair (Prototype)",
+        "cover-photo": "./assets/images/weight_chair_2-potrait-min.jpg",
+        "cover-photo-alt": "Weigh Chair (Prototype)",
+        "body": "The Weight Chair is an innovative prototype designed to assist in monitoring and managing weight-related health metrics of disabled patients. This project integrates advanced sensors and microcontrollers to provide real-time data and analytics, ensuring accurate and efficient weight tracking.",
+        "read-more-link": "",
+        "roles": "Circuit Design, Arduino Programming"
+      }
+    ]
+  }
 }

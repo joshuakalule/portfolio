@@ -154,8 +154,24 @@
             </div>
           </div>
 
-          <div class="row gy-4" id="work-container">
-            <!-- Data fetched from work.json -->
+          <div class="row gy-4" data-aos="fade-up">
+            <div class="container-fluid">
+              <div class="row py-3" id="work-filter-controls">
+                <div class="dropdown">
+                  <a class="btn btn-secondary dropdown-toggle" id="filter-btn" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">All</a>
+
+                  <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a data-filter="all" class="dropdown-item" role="button" href="#">All</a></li>
+                    <li><a data-filter="data-management" class="dropdown-item" role="button" href="#">Data Management</a></li>
+                    <li><a data-filter="backend-devops" class="dropdown-item" role="button" href="#">Backend DevOps</a></li>
+                    <li><a data-filter="electronics-design" class="dropdown-item" role="button" href="#">Electronics Design</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row gy-4" id="work-container">
+                <!-- Data fetched by work.json -->
+              </div>
+            </div>
           </div>
         </div>
       </section>
