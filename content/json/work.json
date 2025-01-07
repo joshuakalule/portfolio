@@ -10,6 +10,32 @@
     }
   },
   "data": {
+    "data-management": [
+      {
+        "title": "Geospatial mapping of Health Facilities",
+        "cover-photo": "./assets/images/qgis-mapping.jpg",
+        "cover-photo-alt": "GIS map showing rural facilities, motorways and primary roads in Central Uganda",
+        "body": "Utilized real-time data from representatives in LMNS Regions to assess geospatial accessibility of health services. Employed Accessmod to compute travel scenarios and zonal statistics, which were then visualized using QGIS. This approach offers a significant advantage by calculating accessibility based on actual barriers such as road speed, land cover, and elevation, rather than relying on straight-line distances or circular buffer zones.",
+        "read-more-link": "#",
+        "roles": "Travel scenarios, Zonal statistics, Data Integration, Capacity Building"
+      },
+      {
+        "title": "EmONC Data Dashboard",
+        "cover-photo": "./assets/images/emonc_dashboard.jpg",
+        "cover-photo-alt": "Dashboard showing facilities in Kampala Metropolitan Region with a selected facility.",
+        "body": "The EmONC Assessment Uganda 2023 gathered extensive data that required effective dissemination. Tableau was utilized to create an interactive dashboard, facilitating access to key parameters and supporting policy review and adjustments by the Ministry of Health and associated facilities.",
+        "read-more-link": "#",
+        "roles": "Data Visualization, Dashboard Development, Data integration"
+      },
+      {
+        "title": "EmONC Assessment Uganda",
+        "cover-photo": "./assets/images/emonc_2024_conference-min.jpg",
+        "cover-photo-alt": "EmONC Assessment Uganda",
+        "body": "Emergency Obstetrics and New-born Care (EmONC) assessment is a data collection exercise carried out every five years organized by the Ministry of Health to collect data about mothers and their new-borns. The assessment sought to learn how all accredited facilities nationwide manage birthing mothers.",
+        "read-more-link": "#",
+        "roles": "Data Analyst, Oversaw Data Collection (ODK), Provided Technical Support, Conducted Data Cleaning and Standardization"
+      }
+    ],
     "backend-devops": [
       {
         "title": "FitTrack Fitness website",
@@ -28,24 +54,30 @@
         "roles": "API Development, Database Architecture, Remote Server Configuration"
       }
     ],
-    "data-management": [
-      {
-        "title": "EmONC Assessment Uganda",
-        "cover-photo": "./assets/images/emonc_2024_conference-min.jpg",
-        "cover-photo-alt": "EmONC Assessment Uganda",
-        "body": "Emergency Obstetrics and New-born Care (EmONC) assessment is a data collection exercise carried out every five years organized by the Ministry of Health to collect data about mothers and their new-borns. The assessment sought to learn how all accredited facilities nationwide manage birthing mothers.",
-        "read-more-link": "",
-        "roles": "Data Analyst, Oversaw Data Collection (ODK), Provided Technical Support, Conducted Data Cleaning and Standardization"
-      }
-    ],
     "electronics-design": [
+      {
+        "title": "Incubator refill system",
+        "cover-photo": "./assets/images/incubator-refill-project.jpg",
+        "cover-photo-alt": "Components for prototype of incubator refill projec",
+        "body": "The incubator refill system is designed to monitor critical parameters such as water levels, humidity, and temperature. It automatically refills water and regulates internal conditions to ensure an optimal environment for newborns.",
+        "read-more-link": "#",
+        "roles": "Circuit Design, Sensor Integration, Arduino programming"
+      },
+      {
+        "title": "Epilepsy Alert System (Prototype)",
+        "cover-photo": "./assets/images/epilepsy-components.jpg",
+        "cover-photo-alt": "Components for prototype of epilepsy alert system",
+        "body": "The Epilepsy Alert System is an innovative prototype designed to assist caretakers in remotely monitoring epilepsy patients. The system measures brain waves, sudden movements, and heart rate to establish threshold values that can predict and alert caretakers of potential epileptic seizures.",
+        "read-more-link": "#",
+        "roles": "Circuit Design, Sensor Integration, Arduino programming, App building"
+      },
       {
         "title": "Weigh Chair (Prototype)",
         "cover-photo": "./assets/images/weight_chair_2-potrait-min.jpg",
         "cover-photo-alt": "Weigh Chair (Prototype)",
         "body": "The Weight Chair is an innovative prototype designed to assist in monitoring and managing weight-related health metrics of disabled patients. This project integrates advanced sensors and microcontrollers to provide real-time data and analytics, ensuring accurate and efficient weight tracking.",
-        "read-more-link": "",
-        "roles": "Circuit Design, Arduino Programming"
+        "read-more-link": "#",
+        "roles": "Circuit Design, Sensor integration, Arduino Programming"
       }
     ]
   }

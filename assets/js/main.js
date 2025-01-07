@@ -58,6 +58,15 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
+  /**
+   * Asynchronously populates the work items on the page.
+   *
+   * Fetches work data from a JSON file and a template, then dynamically creates
+   * and inserts HTML elements into the DOM based on the fetched data.
+   *
+   * @param {string} dataToFetch - The category of work data to fetch. If an empty string is provided, all categories are fetched.
+   * @returns {Promise<void>} - A promise that resolves when the work items have been populated.
+   */
   async function populateWorks(dataToFetch) {
     try {
       const response = await fetch('./content/json/work.json');
