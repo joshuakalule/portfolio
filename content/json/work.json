@@ -12,6 +12,22 @@
   "data": {
     "data-management": [
       {
+        "title": "Bottle Neck Analysis on PPH Prevention and Management",
+        "cover-photo": "./assets/images/pph-bottleneck.jpg",
+        "cover-photo-alt": "Key persons disscussing the  potential bottlenecks",
+        "body": "PPH is responsible for 40% of maternal deaths in 2022/23 despite WHO recommendations for life-saving interventions like heat-stable carbetocin (HSC), tranexamic acid (TXA), and misoprostol, access to these medicines remains limited, especially at primary and community levels. The SafeBirth Africa (SBA) initiative, in collaboration with global health agencies and Ugandan authorities, aims to address these gaps by supporting the scale-up of updated PPH protocols. The study sought insights from healthcare providers and stakeholders in Kampala, Jinja, and the Ministry of Health to identify key bottlenecks, their root causes, and potential solutions.",
+        "read-more-link": "#",
+        "roles": "Data Collection, Data Preparation, Data Analysis, Data Visualization"
+      },
+      {
+        "title": "Mapping tool for use of New Reproductive Health (NRH) commodities",
+        "cover-photo": "./assets/images/workshop-blurred.jpg",
+        "cover-photo-alt": "Blurred image of a workshop with participants",
+        "body": "The Ministry of Health has approved the introduction and scale-up of new reproductive health (RH) commodities to enhance maternal health care in Uganda. These commodities have been integrated into key national health documents. To support the effective use of these commodities, the Ministry’s Reproductive and Child Health Department a national training to develop a network of trainers for further scale-up. The mapping exercise aimed to identify health workers eligible for training in the use of these new RH commodities.",
+        "read-more-link": "#",
+        "roles": "Data Collection, Data Preparation, Data Analysis"
+      },
+      {
         "title": "Geospatial mapping of Health Facilities",
         "cover-photo": "./assets/images/qgis-mapping.jpg",
         "cover-photo-alt": "GIS map showing rural facilities, motorways and primary roads in Central Uganda",
@@ -29,7 +45,7 @@
       },
       {
         "title": "EmONC Assessment Uganda",
-        "cover-photo": "./assets/images/emonc_2024_conference-min.jpg",
+        "cover-photo": "./assets/images/emonc-dissemination-dr-okiria.jpg",
         "cover-photo-alt": "EmONC Assessment Uganda",
         "body": "Emergency Obstetrics and New-born Care (EmONC) assessment is a data collection exercise carried out every five years organized by the Ministry of Health to collect data about mothers and their new-borns. The assessment sought to learn how all accredited facilities nationwide manage birthing mothers.",
         "read-more-link": "#",
@@ -37,6 +53,14 @@
       }
     ],
     "backend-devops": [
+      {
+        "title": "STEM Tutor",
+        "cover-photo": "./assets/images/stem-genius.jpg",
+        "cover-photo-alt": "Breadboard with LEDs, Infred sensors, and other components",
+        "body": "I am an ative STEM Tutor with STEM GENIUS Uganda which aims to enhance the learning experience for kids in STEM subjects. With both online and physical Holiday and weekend programs, it provides a comprehensive suite of tools and resources, including interactive lessons, quizzes, and hands-on projects, to help students grasp complex concepts in science, technology, engineering, and mathematics.",
+        "read-more-link": "https://stemgeniusltd.com/",
+        "roles": "Python, Scratch, Arduino, Backend Development"
+      },
       {
         "title": "FitTrack Fitness website",
         "cover-photo": "./assets/images/fittrack_1.jpeg.png",
@@ -55,6 +79,14 @@
       }
     ],
     "electronics-design": [
+      {
+        "title": "Air Filtration System for Mortuary",
+        "cover-photo": "./assets/images/air-filter-project-1.jpg",
+        "cover-photo-alt": "Air filtration prototype",
+        "body": "The air filtration system is designed to improve air quality in mortuaries by filtering out harmful particles and pathogens. Using 2 MQ-135 air quality sensors, activated charcoal, and controlled ventilation, it ensures a safer environment for both staff and visitors.",
+        "read-more-link": "#",
+        "roles": "Circuit Design, Sensor Integration, Arduino programming"
+      },
       {
         "title": "Incubator refill system",
         "cover-photo": "./assets/images/incubator-refill-project.jpg",
