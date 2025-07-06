@@ -1,3 +1,5 @@
+var temp;
+const parser = new DOMParser();
 document.addEventListener('DOMContentLoaded', () => {
   AOS.init({
     offset: 120,
@@ -130,4 +132,38 @@ document.addEventListener('DOMContentLoaded', () => {
       document.getElementById('work').scrollIntoView({ behavior: 'smooth' });
     }
   });
+
+  // trigger the imageModal
+  document.querySelectorAll('#about .link-view-image-model').forEach((button) => {
+    button.addEventListener('click', async (event) => {
+      const clickedButton = event.target;
+      const greatParentDiv = clickedButton.closest('.education-item');
+      const title = greatParentDiv?.querySelector('.education-item-title')?.innerText;
+      const imgPath = clickedButton.getAttribute('data-bs-imgPath');
+
+      if (imgPath === null) {
+        console.error("Image path is null: [clicked]");
+        console.log(clickedButton);
+        return;
+      }
+
+      const fullImgPath = `./content/images/${imgPath}`;
+      const imgTagString = '<img src="" class="img-fluid" alt="Image preview">';
+      const parser = new DOMParser();
+      const doc = parser.parseFromString(imgTagString, 'text/html');
+      const imgElement = doc.body.firstChild;
+
+      imgElement.src = fullImgPath;
+      imgElement.alt = `Image preview of ${title}`;
+
+      const modalInstance = document.getElementById('imageModal');
+      const modalTitle = modalInstance.querySelector('.modal-title');
+      const modalBody = modalInstance.querySelector('.modal-body');
+
+      modalTitle.textContent = title;
+      modalBody.innerHTML = ''; // Clear previous content
+      modalBody.appendChild(imgElement);
+    });
+  });
+
 });
