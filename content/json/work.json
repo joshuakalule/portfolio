@@ -12,6 +12,22 @@
   "data": {
     "data-management": [
       {
+        "title": "Health Facility Optimization using AccessMod and QGIS",
+        "cover-photo": "./assets/images/geospatial-bunyoro.jpg",
+        "cover-photo-alt": "QGIS map showing health facilities in Bunyoro region",
+        "body": "The 2024 Emergency Obstetric and Newborn Care (EmONC) network optimization report highlights Uganda's bold efforts to improve access to maternal and newborn care, as well as general health services. The aim of this approach is to optimize the number and locations of health facilities providing essential and complicated maternal and newborn care in order to improve the availability and quality of care and ensure a good geographic access of the population within 1 hour of travel time. Health facility data, Geographic Information Systems (GIS) and a WHO geographic access tool (AccessMod) were utilized to guide the optimization of EmONC in the country. This approach will ensure that a significant portion of the population can access equitable, life-saving services. This initiative aligns with Uganda's Vision 2040 and National Development Plan III, which emphasizes leveraging technology and promoting regional integration to enhance health outcomes.",
+        "read-more-link": "#",
+        "roles": "Geospatial Analysis, Data Integration, Mapping"
+      },
+      {
+        "title": "National Safe Motherhood Scientific Repository",
+        "cover-photo": "./assets/images/nsmc_repo.jpg",
+        "cover-photo-alt": "Slide for the National Safe Motherhood Scientific Repository",
+        "body": "National Safe Motherhood Repository is a scientific digital repository designed to curate, preserve, and disseminate evidence and knowledge related to maternal, newborn, and reproductive health. Built on InvenioRDM, the repository adopts international best practices for research data management, open science, and long-term digital preservation. The repository is self-hosted, providing full institutional control over data governance, security, customization, and compliance with national policies. This deployment model ensures sustainability and flexibility while supporting integration with local authentication systems and infrastructure. By centralizing safe motherhood evidence in a trusted national platform, the repository strengthens knowledge sharing, promotes transparency, and supports evidence-informed decision-making to improve maternal and newborn health outcomes.",
+        "read-more-link": "https://repository.nasmecinstitute.org/",
+        "roles": "Backend Developer, Data Visualization, Database Management"
+      },
+      {
         "title": "Bottle Neck Analysis on PPH Prevention and Management",
         "cover-photo": "./assets/images/pph-bottleneck.jpg",
         "cover-photo-alt": "Key persons disscussing the  potential bottlenecks",
